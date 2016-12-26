@@ -102,7 +102,8 @@
             (buffer-substring-no-properties
              (match-beginning 1) (match-end 1)))
            (ivy-erlang-complete--find-local-vars)
-           (ivy-erlang-complete--find-local-functions)
+           (company-erlang--transform-arity
+            (ivy-erlang-complete--find-local-functions))
            (ivy-erlang-complete--get-record-names)
            (ivy-erlang-complete--find-modules)
            ivy-erlang-complete-macros))
@@ -134,7 +135,8 @@
     (setq ivy-erlang-complete-candidates
           (append
            (ivy-erlang-complete--find-local-vars)
-           (ivy-erlang-complete--find-local-functions)
+           (company-erlang--transform-arity
+            (ivy-erlang-complete--find-local-functions))
            (ivy-erlang-complete--get-record-names)
            (ivy-erlang-complete--find-modules)
            ivy-erlang-complete-macros))
