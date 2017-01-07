@@ -5,7 +5,7 @@
 ;; frontend.
 ;; Author: Sergey Kostyaev <feo.me@ya.ru>
 ;; Version: 1.0.0
-;; Package-Requires: ((emacs "24.4") (ivy-erlang-complete "20161018.1145") (company "0.9.2"))
+;; Package-Requires: ((emacs "24.4") (ivy-erlang-complete "0.1") (company "0.9.2"))
 ;; Keywords: tools
 ;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
