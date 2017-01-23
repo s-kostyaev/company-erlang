@@ -1,4 +1,4 @@
-;;; company-erlang.el --- company backend based on ivy-erlang-complete
+;;; company-erlang.el --- company backend based on ivy-erlang-complete -*- lexical-binding: t -*-
 ;;
 ;; Filename: company-erlang.el
 ;; Description: Context sensitive erlang completion package with company as
